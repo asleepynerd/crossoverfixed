@@ -22,8 +22,26 @@ jobs:
         run: |
           codesign -f -s - hook.dylib
 
-      - name: Upload Release Asset
+      - name: Create Release for Commit
         uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, 'refs/tags/')
         with:
+          tag_name: ${{ github.sha }}
+          name: Release ${{ github.sha }}
           files: hook.dylib
+          body: |
+            Automated build for commit ${{ github.sha }}
+
+            Build triggered by: ${{ github.actor }}
+
+      - name: Update Latest Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: latest
+          name: Latest Build
+          files: hook.dylib
+          make_latest: true
+          body: |
+            This is the latest automated build of hook.dylib.
+
+            Latest commit: ${{ github.sha }}
+            [View changes](https://github.com/${{ github.repository }}/commit/${{ github.sha }})
