@@ -12,3 +12,11 @@ if u hav question open an issue, if u have improvements, do not suggest some bec
 uhh i'll make an uninstaller sometime when i can remember to
 
 to codeweavers: dont charge so much for reskinned wine and this wouldnt happen
+
+
+
+
+
+
+
+[p.s this is most definitely a crossover crack, and probably the best one out there atm]: # 
