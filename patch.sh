@@ -1,9 +1,9 @@
 #!/bin/bash
 
-CROSSOVER_MACOS_PATH="/Applications/CrossOver.app/Contents/MacOS"
-REPO_URL="https://github.com/totallynotinteresting/crossover.git"
-RAW_URL="https://raw.githubusercontent.com/totallynotinteresting/crossover/main"
-RELEASE_URL="https://github.com/totallynotinteresting/crossover/releases/latest/download/hook.dylib"
+CROSSOVER_MACOS_PATH="/Users/r.fink29/Downloads/Apps/CrossOver.app"
+REPO_URL="https://github.com/RavNut2/crossoverfixed.git"
+RAW_URL="https://raw.githubusercontent.com/RavNut2/crossoverfixed/main"
+RELEASE_URL="https://github.com/RavNut2/crossoverfixed/releases/latest/download/hook.dylib"
 
 if [ ! -d "$CROSSOVER_MACOS_PATH" ]; then
     echo "CrossOver.app was not found at $CROSSOVER_MACOS_PATH"
