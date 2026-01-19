@@ -16,7 +16,9 @@ to codeweavers: dont charge so much for reskinned wine and this wouldnt happen
 
 
 
-
+original credit to [totallynotinteresting/crossover](https://github.com/totallynotinteresting/crossover)
 
 
 [p.s this is most definitely a crossover crack, and probably the best one out there atm]: # 
+
+
